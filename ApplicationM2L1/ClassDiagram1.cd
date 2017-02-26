@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ApplicationM2L1.DAL.AdherentManagement">
+    <Position X="3" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAgAAAAAQAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>DAL\AdherentManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.DAL.CreationAdherents">
+    <Position X="6.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DAL\CreationAdherents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.FormAjout">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgIBAAAACQCAACAAAAAAAAABAAgAAAAAA=</HashCode>
+      <FileName>FormAjout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.FormLister" Collapsed="true">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAIAAAAACAAAACAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormLister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.FormMenu" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAgCAAIAAAABCAAAFCAAAgAAAAAQAAACAAAAI=</HashCode>
+      <FileName>FormMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.FormSupprimer" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAACECAACAAAAAAAAAAAQAAAAABA=</HashCode>
+      <FileName>FormSupprimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.Program" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.Metier.Adherent">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAACESAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Metier\Adherent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.Properties.Resources" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationM2L1.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
