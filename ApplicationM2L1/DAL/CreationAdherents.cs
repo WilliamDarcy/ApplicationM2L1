@@ -17,9 +17,9 @@ namespace ApplicationM2L1.DAL
         public static List<Adherent> CreationListe()
         {
              List<Adherent> LesAdherents = new List<Adherent>();
-            Adherent a1 = new Adherent(1, "Durand", "Jean", new DateTime(2016, 5, 5));
+            Adherent a1 = new Adherent(55, "Durand", "Jean", new DateTime(2016, 5, 5));
             Adherent a2 = new Adherent(4, "Martin", "Louis", new DateTime(2016, 6, 6));
-            Adherent a3 = new Adherent(5, "Wang", "Pierre", new DateTime(2016, 7, 9));
+            Adherent a3 = new Adherent(2, "Wang", "Pierre", new DateTime(2016, 7, 9));
             LesAdherents.Add(a1);
             LesAdherents.Add(a2);
             LesAdherents.Add(a3);

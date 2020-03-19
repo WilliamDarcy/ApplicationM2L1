@@ -8,10 +8,10 @@ namespace ApplicationM2L1.Metier
 {
     public class Adherent
     {
-        private int Id;
-        private string Nom;
-        private string Prenom;
-        private DateTime DateAdhesion;
+        public int Id { get; set; }
+        public string Nom { get; set; }
+        public string Prenom { get; set; }
+        public DateTime DateAdhesion { get; set; }
 
         /// <summary>
         /// Constructeur

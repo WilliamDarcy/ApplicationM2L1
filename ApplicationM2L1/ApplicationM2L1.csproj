@@ -48,43 +48,43 @@
   <ItemGroup>
     <Compile Include="DAL\AdherentManagement.cs" />
     <Compile Include="DAL\CreationAdherents.cs" />
-    <Compile Include="FormAjout.cs">
+    <Compile Include="Formulaires\FormAjout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAjout.Designer.cs">
+    <Compile Include="Formulaires\FormAjout.Designer.cs">
       <DependentUpon>FormAjout.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLister.cs">
+    <Compile Include="Formulaires\FormLister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLister.Designer.cs">
+    <Compile Include="Formulaires\FormLister.Designer.cs">
       <DependentUpon>FormLister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMenu.cs">
+    <Compile Include="Formulaires\FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenu.Designer.cs">
+    <Compile Include="Formulaires\FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSupprimer.cs">
+    <Compile Include="Formulaires\FormSupprimer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSupprimer.Designer.cs">
+    <Compile Include="Formulaires\FormSupprimer.Designer.cs">
       <DependentUpon>FormSupprimer.cs</DependentUpon>
     </Compile>
     <Compile Include="Metier\Adherent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAjout.resx">
+    <EmbeddedResource Include="Formulaires\FormAjout.resx">
       <DependentUpon>FormAjout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLister.resx">
+    <EmbeddedResource Include="Formulaires\FormLister.resx">
       <DependentUpon>FormLister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMenu.resx">
+    <EmbeddedResource Include="Formulaires\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSupprimer.resx">
+    <EmbeddedResource Include="Formulaires\FormSupprimer.resx">
       <DependentUpon>FormSupprimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

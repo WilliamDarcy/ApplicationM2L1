@@ -43,22 +43,28 @@
             this.dataGridViewAdherents.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridViewAdherents.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridViewAdherents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewAdherents.Location = new System.Drawing.Point(121, 38);
+            this.dataGridViewAdherents.Location = new System.Drawing.Point(161, 47);
+            this.dataGridViewAdherents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewAdherents.Name = "dataGridViewAdherents";
             this.dataGridViewAdherents.ReadOnly = true;
-            this.dataGridViewAdherents.Size = new System.Drawing.Size(416, 211);
+            this.dataGridViewAdherents.RowHeadersWidth = 51;
+            this.dataGridViewAdherents.Size = new System.Drawing.Size(555, 260);
             this.dataGridViewAdherents.TabIndex = 0;
-             // 
+            this.dataGridViewAdherents.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAdherents_CellClick);
+            this.dataGridViewAdherents.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAdherents_CellContentClick);
+            this.dataGridViewAdherents.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewAdherents_RowHeaderMouseClick);
+            // 
             // adherentBindingSource
             // 
             this.adherentBindingSource.DataSource = typeof(ApplicationM2L1.Metier.Adherent);
             // 
             // FormLister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(715, 261);
+            this.ClientSize = new System.Drawing.Size(1179, 494);
             this.Controls.Add(this.dataGridViewAdherents);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormLister";
             this.Text = "Liste de tous les adhérents";
             this.Load += new System.EventHandler(this.FormLister_Load);
@@ -69,8 +75,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridViewAdherents;
         private System.Windows.Forms.BindingSource adherentBindingSource;
+        private System.Windows.Forms.DataGridView dataGridViewAdherents;
     }
 }
